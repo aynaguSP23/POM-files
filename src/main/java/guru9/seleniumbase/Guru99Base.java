@@ -25,8 +25,8 @@ public class Guru99Base  {
 		drivers.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		drivers.get("https://demo.guru99.com/V1/index.php");
 		//For LoginPage
-		LoginPage.enterUserName(drivers).sendKeys("mngr485460");
-		LoginPage.enterUserPassword(drivers).sendKeys("UtysYbE");
+		LoginPage.enterUserName(drivers).sendKeys("mngr492076");
+		LoginPage.enterUserPassword(drivers).sendKeys("AvydyvY");
 		LoginPage.clickLogin(drivers).click();
 		
 		//Add new customer
